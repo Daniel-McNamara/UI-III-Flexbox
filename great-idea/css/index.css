@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Lilita One', cursive;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,171 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	display: inline-block;
+}
+
+#contact {
+	margin: 40px 0;
+	text-align: justify;
+}
+
+#content {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 990px;
+	min-width: 990px;
+}
+
+#feature-about {
+	width: 100%;
+	height: 100%;
+	margin: 40px 0;
+	text-align: justify;	
+}
+
+#feature-about #fa-left {
+	width: 50%;
+	float: left;	
+	height: 100%;
+}
+
+#feature-about #fa-right {
+	width: 50%;
+	float: left;	
+	height: 100%;
+	padding-left: 25px;
+}
+
+#innovation-on-demand {
+	width: 100%;
+	height: 100%;
+	margin: 110px auto 50px auto;
+}
+
+#innovation-on-demand #iod-left {
+	width: 50%;
+	float: left;	
+	height: 100%;
+	margin-top: 50px;
+}
+
+#innovation-on-demand #iod-right {
+	width: 50%;
+	float: right;	
+	height: 100%;
+}
+
+#innovation-on-demand a {
+	color: black;
+	padding: 5px 40px;
+	text-decoration: none;
+	border: solid 1px black;
+	transition: color 0.3s, font-weight 0.3s, border 0.3s;
+}
+
+#innovation-on-demand a:hover {
+	color: grey;
+	font-weight: bold;
+	border: solid 2px grey;
+	transition: color 0.3s, font-weight 0.3s, border 0.3s;
+}
+
+#innovation-on-demand h1 {
+	font-size: 80px;
+}
+
+#service-product-vision {
+	width: 100%;
+	height: 100%;
+	margin: 40px 0;
+	text-align: justify;
+	display: inline-block;
+}
+
+#spv-left {
+	float: left;	
+	height: 100%;
+	width: 33.3333333333%;
+}
+
+#spv-middle {
+	float: left;
+	height: 100%;
+	padding-left: 25px;
+	width: 33.3333333333%;
+}
+
+#spv-right {
+	float: left;	
+	height: 100%;
+	padding-left: 25px;
+	width: 33.3333333333%;
+}
+
+body {
+	width: 100vw;
+	text-align: center;
+}
+
+footer > p {
+	margin-bottom: 100px;
+}
+
+hr {
+	width: 0;
+	margin: 0;
+	width: 100%;
+}
+
+html {
+	
+	overflow-x: hidden;
+}
+
+nav {
+	top: 0;
+	width: 100vw;
+	position: fixed;
+	min-width: 990px;
+	background: #00CED1;
+}
+
+nav a {
+	color: grey;
+	font-size: 14px;
+	padding: 15px 30px;
+	text-decoration: none;
+	vertical-align: middle;
+	transition: color 0.6s;
+}
+
+nav a:hover {
+	color: black;
+	font-weight: bold;
+	transition: color 0.6s;
+		background-color: red;
+		-webkit-animation-name: example;
+		-webkit-animation-duration: 4s;
+		animation-name: example;
+		animation-duration: 4s;
+	  }
+	  
+	  @keyframes example {
+		from {background-color: rgb(0, 255, 55);}
+		to {background-color: rgb(255, 0, 0);}
+	  }
+
+
+span {
+	font-weight: bold;
+}
+
+title {
+	display: none;
+}
+
+.middle-img {
+	width: 100%;
+}
